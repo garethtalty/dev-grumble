@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "predeploy": "npm run clean && npm run build && rm -rf .deploy_git",
+    "predeploy": "rm -rf .deploy_git",
     "deploy": "hexo deploy",
     "server": "hexo server"
   },

@@ -2,12 +2,21 @@
 title: Crafting the Perfect Git Commit
 date: 2021-01-28 15:40:11
 tags:
+  - git
+  - tips
+  - productivity
+  - code review
 ---
 
-<span>Photo by <a href="https://unsplash.com/@yancymin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Yancy Min</a> on <a href="https://unsplash.com/s/photos/git?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+![](images/git-commit.jpg)
+<figcaption>
+  <span>Photo by <a href="https://unsplash.com/@yancymin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Yancy Min</a> on <a href="https://unsplash.com/s/photos/git?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+</figcaption>
 
 You probably already use git for source control and are probably very familiar with `git add`.
+
 Perhaps you haven’t yet discovered a very simple way to keep your commits small and meaningful…
+
 Pass the `-p` or `--patch` option to git add and git will split your files into ‘hunks’ and present a diff for each hunk, one at a time with various options:
 ```
 y - stage this hunk
